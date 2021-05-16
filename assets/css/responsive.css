@@ -1,0 +1,67 @@
+@media (max-width: 798px) and (min-width: 280px) {
+    section{
+        flex-direction: column;
+        width: 375px;
+        height: 585px;
+    }
+    section .image{
+        width: 375px;
+        height: 35%;
+        background-position: 0% 40%;
+        border-radius: 10px 10px 0 0;
+    }
+    section article{
+        width: 100%;
+        height: 65%;
+        padding: 2em;
+    }
+    section article h1{
+        margin-bottom: 1em;
+        padding-top: 1em;
+        padding-right: 0;
+        font-size: 1.2em;
+        font-weight: 700;
+        line-height: 1.5em;
+    }
+    section article p{
+        margin-bottom: 1em;
+        padding-right: 0;
+        line-height: 1.48em;
+        font-size: .98em;
+        color: hsl(214, 17%, 51%);
+    }
+    .footer-card{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: auto;
+        justify-content: flex-start;
+    }
+    .footer-card .autor{
+        padding: 2em 1em 1em 1em;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .footer-card .autor h2{
+        font-size: 1em;
+        color: hsl(217, 19%, 35%);
+    }
+    .footer-card .autor p{
+        padding-top: 0em;
+        font-size: .9em;
+    }
+    .footer-card .share{
+        margin-left: 4em;
+        margin-top: .1em;
+    }
+    .footer-card .share span{
+        margin-left: 0;
+    }
+    .tooltip{
+        padding: .3rem 2rem;
+        margin-bottom: 0em;
+        margin-left: 0em;
+    }
+}
