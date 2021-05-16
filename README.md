@@ -6,6 +6,6 @@
 <ul>
   <li>HTML</li>
   <li>CSS</li>
-  <li>JavaScript</li>
+  <li>JavaScript [JQuery]</li>
  </ul>
 <h2> Frontend Mentor Challenge - Coded by: <em>Misael Lopes </em></h2>
